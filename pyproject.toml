@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytrust"
+version = "0.1.0"
+description = "Python implementations of common tools used in merger analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "adfmoore" }]
+dependencies = [
+    "numpy>=1.20",
+    "pandas>=2.0",
+    "scipy>=1.13",
+]
+license = "MIT"
+
+[tool.setuptools]
+packages = ["pytrust"]
