@@ -1,6 +1,7 @@
-# PyTrust: Python implementations of common tools used in antitrust work
+# PyTrust 
+## Python implementations of common tools used in antitrust work
 
-## Introduction
+### Overview
 This project implements several methods used in antitrust work, with a focus (at least for now) on evaluating mergers. This is a small side project I work on as I have time available, and is in no way all-inclusive of every single tool. I plan to update this repo to include more methods over time. An item that I will not be implementing in this package are BLP-related tools -- `pyblp` already does this fantastically. 
 
 This is similar in spirit to the R package `antitrust`, but -- at present (7/26/2026) -- is much less comprehensive. So, what is the advantage to using this package over the R equivalent? If I am honest, really nothing! The one tiny advantage is getting to use Python over R, for those with strong preferences over languages. 
